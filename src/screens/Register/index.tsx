@@ -13,7 +13,7 @@ import {
   TransactionType,
 } from './styles';
 
-export default function Register() {
+export function Register() {
   const [transactionType, setTransactionType] = useState('');
 
   function handleTransactionTypeSelect(type: 'up' | 'down') {
