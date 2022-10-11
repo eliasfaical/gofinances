@@ -45,7 +45,7 @@ export function CategorySelect({
         keyExtractor={item => item.key}
         renderItem={({item}) => (
           <Category
-            onPeress={() => handleCategorySelect(item)}
+            onPress={() => handleCategorySelect(item)}
             isActive={category.key === item.key}>
             <Icon name={item.icon} />
             <Name>{item.name}</Name>
